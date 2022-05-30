@@ -1,0 +1,90 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.containner {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    padding: 10rem;
+    
+}
+
+.card {
+    display: flex;
+    max-width: 350px;
+    max-height: 600px;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 8px 11px 11px 0px rgba(36,35,35,0.6);
+    padding: 5px;
+    
+}
+
+.card_image img{
+    flex: 23 0 302px;
+    max-width: 302px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 10px;
+
+    margin: 20px;
+    margin-left: 25px;
+        
+}
+
+.card_image a:hover {
+    background-image: url("/nft-preview-card-component-main/images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card_title {
+    margin: 25px;
+    margin-top:0px;
+    
+}
+
+.card_discription {
+    margin: 25px;
+    margin-top: 0px;
+}
+
+.icons {
+    margin: 25px;
+    margin-top:0px;
+    display: inline-flex;
+    gap: 5em;
+}
+
+.card_price {
+    display: inline-block;
+}
+
+.icon_clock {
+    
+}
+
+.card_time {
+    display: inline-block;
+}
+
+.artist {
+    display: inline-flex;
+    margin: 25px;
+    margin-top: 10px;
+}
+
+.user_logo img{
+    max-height: 33px;
+    border: 2px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.user_name {
+    margin-left: 15px;
+    margin-top: 5px;
+}
